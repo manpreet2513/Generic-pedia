@@ -1,0 +1,144 @@
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+a {
+  text-decoration: none;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:hover,
+a:active {
+  color: lightgray;
+}
+.example-form {
+  min-width: 500px;
+  max-width: 500px;
+  width: 100%;
+  float: left;
+}
+.logo-img{
+  padding: 10px 0;
+}
+.header-top li a{
+  font-size: 14px;
+  color: #2C3E50;
+  border-top: 3px solid #FAFAFA;
+  background: #fafafa;
+}
+.header-top li a.red-btn{
+  font-size: 16px;
+  color: #fff;
+  border-top: none;
+  background: #FF5067;
+  border-radius: 5px;
+  padding: 14px 20px;
+  text-align: center;
+}
+.header-top li a.red-btn:hover{;
+  background: #DA4155;
+}
+.red-btn-main{
+  font-size: 16px;
+  color: #fff;
+  border-top: none;
+  background: #FF5067;
+  border-radius: 5px;
+  padding: 11px 35px;
+  text-align: center;
+  border: navajowhite;
+  font-weight: 600;
+  margin: 26px;
+}
+.red-btn-main:hover, .red-btn-main:focus{
+  background: #DA4155;
+}
+.header-top li a:hover, .header-top li a:active{
+  color: #A29BFE;
+  border-top: 3px solid #A29BFE;
+}
+.header-top {
+  padding: 0 30px;
+  margin: 15px 0px;
+  background: transparent;
+}
+.example-full-width {
+  width: 100%;
+}
+.search-box-top .example-full-width{
+  padding: 10px 15px !important;
+}
+.search-box-top textarea{
+  background: #fff;
+  border: 1px solid #DFE1E5;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.search-box-top{
+  height:200px;
+  background: linear-gradient(180deg, #DAD6FC ,#F3F2FF );
+}
+mat-sidenav-container{
+  height: auto;
+}
+.navigation-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  height: 30px;
+  margin: 0 auto;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+}
+
+.label {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
+  width: 85%;
+}
+
+/********************content****************************/
+.center-cont li{
+  color:#718093;
+  font-size: 15px;
+  margin: -5px 0px;
+}
+.center-cont{
+  padding: 30px;
+}
+h1{
+  font-weight: bold;
+  font-size: 24px;
+  color:#2C3E50;
+  margin: 30px 0 20px 0;
+}
+h6{
+  font-size: 16px;
+  color:#2C3E50;
+  margin: -20px 0 15px 0;
+}
+/*************latest-news-sec************/
+.latest-news-sec{
+  border: none;
+  padding: 2px 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 11px -7px #000;
+}
+.footer-btm-main{
+  background: linear-gradient(180deg, #F2F1FE ,#F9F9FF );
+  padding: 30px;
+}
