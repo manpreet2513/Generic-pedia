@@ -631,19 +631,16 @@
                "assets/images/men/3-item-d.jpg",
                "assets/images/men/3-item-e.jpg"
             ],
-            "name": "Vintage Jean",
+            "name": "Amo (5 mg)",
             "popular": false,
-            "price": 18.75,
+            "price": 1.50,
             "product_code": "#EM1201",
             "quantity": 1,
-            "rating": 4,
             "status": 0,
             "tags": [
-               "Jean ",
-               "Men ",
-               "Outwear"
+               "Amo "
             ],
-            "type": "men"
+            "type": "Tablet"
          },
          {
             "availablity": true,
@@ -667,17 +664,15 @@
                "assets/images/men/2-item-d.jpg",
                "assets/images/men/2-item-e.jpg"
             ],
-            "name": "Super Jacket",
+            "name": "Lignocaine (2%) (Tribhawan\nInjectables)",
             "popular": false,
-            "price": 82.75,
+            "price": 0.50,
             "product_code": "#EM1202",
             "quantity": 1,
             "rating": 5,
             "status": 0,
             "tags": [
-               "Winter ",
-               "Men ",
-               "Jacket"
+               "Medicine"
             ],
             "type": "men"
          },

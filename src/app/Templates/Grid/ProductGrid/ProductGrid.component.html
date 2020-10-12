@@ -11,10 +11,11 @@
            <h5><a [routerLink]="['/products', product?.type, product?.id]" class="title-link">{{product?.name}}</a> </h5>
            <div>
               <div fxFlex fxLayoutAlign="space-between">
-                 <h6 class="accent-color">{{product?.price | currency: currency}}</h6>
-                 <div class="rating-star">
+                 <h6 class="accent-color">1 Tablet <br>{{product?.price | currency: currency}}</h6>
+                 <h6 class="accent-color">10 Tablet <br>{{product?.price | currency: currency}}</h6>
+                 <!--div class="rating-star">
                     <embryo-Rating [rate]="product.rating"></embryo-Rating>
-                 </div>
+                 </div-->
               </div>
            </div>
            <div class="m-icon" *ngIf="checkCartAlready(product)">
@@ -23,7 +24,7 @@
            <div class="m-icon" *ngIf="!checkCartAlready(product)">
                <button mat-fab [routerLink]="['/products', product?.type, product?.id]"><i class="material-icons">remove_red_eye</i> </button>
            </div>
-           
+
         </mat-card-content>
      </mat-card>
      <!-- Multiple show products grid -->
@@ -42,10 +43,11 @@
            <h5><a *ngIf="!product?.id" [routerLink]="['/products/accessories/17']" class="title-link">{{product?.name}}</a> </h5>
            <div>
               <div fxFlex fxLayoutAlign="space-between">
-                 <h6 class="accent-color">{{product?.price | currency: currency}}</h6>
-                 <div class="rating-star">
+                 <h6 class="accent-color">1 Tablet <br>{{product?.price | currency: currency}}</h6>
+                <h6 class="accent-color">10 Tablet <br>{{product?.price | currency: currency}}</h6>
+                 <!--div class="rating-star">
                     <embryo-Rating [rate]="product.rating"></embryo-Rating>
-                 </div>
+                 </div-->
               </div>
            </div>
            <div class="m-icon" *ngIf="checkCartAlready(product)">
@@ -55,7 +57,7 @@
                <button mat-fab *ngIf="product?.id" [routerLink]="['/products', product?.type, product?.id]"><i class="material-icons">remove_red_eye</i> </button>
                <button mat-fab *ngIf="!product?.id"[routerLink]="['/products/accessories/17']"><i class="material-icons">remove_red_eye</i> </button>
            </div>
-          
+
         </mat-card-content>
      </mat-card>
   </div>

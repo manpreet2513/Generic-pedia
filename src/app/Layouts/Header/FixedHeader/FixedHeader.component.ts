@@ -17,5 +17,7 @@ export class FixedHeaderComponent implements OnInit {
    {
       this.embryoService.sidenavOpen = !this.embryoService.sidenavOpen;
    }
-
+  public toggleSearch() {
+    document.querySelector('app-main').classList.toggle('form-open');
+  }
 }

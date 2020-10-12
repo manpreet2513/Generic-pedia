@@ -1,8 +1,12 @@
 .responsive-toggle {
   display: none;
 }
-
-
+.header-v1-top{
+  background: #ffffff;
+}
+.header-v1-bottom{
+  background: #A29BFE;
+}
 
 @media(max-width:959px) {
   .responsive-toggle {
